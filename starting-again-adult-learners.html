@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<title>Starting Again: A Guide for Adult Learners — Anchored Pathways</title>
+<meta name="description" content="A step-by-step guide for adults returning to education — GED, ESL, career training, and college — in English and Spanish.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal-deep:#1A5F6E; --teal-navy:#14505E; --teal-mid:#2A8A96;
+    --gold:#F5A623; --amber:#E8832A; --white:#FFFFFF;
+    --ink:#0F2A31; --ink-soft:#3C5A61; --paper:#F5FAFA; --card:#FFFFFF; --line:#D9E7E8;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;background:var(--paper);color-scheme:light;}
+  body{margin:0;min-height:100dvh;background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;color-scheme:light;}
+  h1,h2,h3{font-family:'Unbounded',sans-serif;color:var(--teal-navy);line-height:1.15;margin:0;}
+  a{color:var(--teal-deep);}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px;}
+
+  .topbar{background:var(--teal-navy);color:var(--white);padding:14px 0;}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Unbounded';font-weight:600;font-size:14px;letter-spacing:.02em;color:var(--white);text-decoration:none;}
+  .brand-mark{width:26px;height:26px;flex:none;}
+  .topbar .tag{font-size:12px;color:#BFE0E6;font-weight:500;}
+
+  .hero{background:linear-gradient(160deg,var(--teal-navy) 0%,var(--teal-deep) 62%,var(--teal-mid) 100%);color:var(--white);padding:48px 0 42px;}
+  .eyebrow{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);background:rgba(245,166,35,.14);border:1px solid rgba(245,166,35,.4);padding:5px 12px;border-radius:100px;margin-bottom:18px;}
+  .hero h1{font-size:30px;font-weight:700;margin-bottom:6px;color:var(--white);}
+  .hero h1.es{font-size:18px;font-weight:500;font-style:italic;color:#BFE0E6;margin-bottom:18px;font-family:'Inter';}
+  .hero p.lead{font-size:15.5px;color:#DCEEF0;max-width:58ch;margin:0 0 6px;}
+  .hero p.lead.es{font-style:italic;color:#A9D3D8;font-size:14px;margin-bottom:20px;}
+  .chip-row{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{font-size:12.5px;font-weight:600;color:var(--teal-navy);background:var(--white);padding:6px 12px;border-radius:100px;}
+
+  section{padding:44px 0;background:var(--paper);}
+  section.alt{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .kicker{font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);margin-bottom:8px;}
+  h2{font-size:23px;font-weight:700;margin-bottom:8px;}
+  .section-intro{color:var(--ink-soft);font-size:15px;max-width:60ch;margin-bottom:10px;}
+  .section-intro.es{font-style:italic;font-size:13.5px;margin-bottom:26px;}
+
+  .track{position:relative;padding-left:30px;}
+  .track::before{content:"";position:absolute;left:14px;top:6px;bottom:6px;width:2px;background:repeating-linear-gradient(to bottom,var(--teal-mid) 0,var(--teal-mid) 6px,transparent 6px,transparent 12px);}
+  .step-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 20px 18px;margin-bottom:16px;}
+  .step-card:last-child{margin-bottom:0;}
+  .step-num{position:absolute;left:-30px;top:20px;width:26px;height:26px;border-radius:50%;background:var(--gold);color:var(--teal-navy);font-family:'Unbounded';font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 3px var(--paper);}
+  .step-card h3{font-size:17px;margin-bottom:2px;}
+  .step-card h3.es{font-size:13.5px;font-weight:500;font-style:italic;color:var(--amber);font-family:'Inter';margin-bottom:10px;}
+  .step-card p.en{color:var(--ink);font-size:14.5px;margin:0 0 6px;}
+  .step-card p.es{color:var(--ink-soft);font-size:13px;font-style:italic;margin:0;}
+
+  .alert{background:#FFF6E9;border:1px solid #F5D9A8;border-radius:var(--radius);padding:18px 20px;margin-top:10px;}
+  .alert .a-head{display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .alert .a-head span{font-family:'Unbounded';font-weight:700;font-size:14px;color:var(--amber);}
+  .alert p{font-size:14px;color:var(--ink);margin:0 0 8px;}
+  .alert p.es{font-style:italic;color:var(--ink-soft);font-size:13px;margin:0;}
+
+  .cta{background:var(--teal-navy);color:var(--white);text-align:center;padding:48px 0 44px;}
+  .cta .kicker{color:var(--gold);}
+  .cta h2{color:var(--white);font-size:25px;margin-bottom:4px;}
+  .cta h2.es{font-size:15.5px;font-weight:500;font-style:italic;color:#BFE0E6;font-family:'Inter';margin-bottom:14px;}
+  .cta p{color:#DCEEF0;font-size:15px;max-width:52ch;margin:0 auto 6px;}
+  .cta p.es{font-style:italic;color:#A9D3D8;font-size:13.5px;margin:0 auto 22px;}
+  .btn{display:inline-block;background:var(--gold);color:var(--teal-navy);font-family:'Unbounded';font-weight:700;font-size:14px;padding:14px 28px;border-radius:100px;text-decoration:none;}
+  .btn:hover{background:#ffb745;}
+  .cta .sub{margin-top:16px;font-size:12.5px;color:#9FC9CE;}
+
+  footer{padding:26px 0 40px;text-align:center;font-size:12px;color:var(--ink-soft);background:var(--paper);}
+  footer p{margin:4px 0;}
+  @media(min-width:640px){.hero h1{font-size:36px;}.hero h1.es{font-size:21px;}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="https://anchoredpathways.org">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="6" r="2.6" stroke="#F5A623" stroke-width="1.6"/>
+        <path d="M12 8.6V19M12 19C8.5 19 6 16.8 6 13.5M12 19c3.5 0 6-2.2 6-5.5" stroke="#F5A623" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M4.5 13.5H7.5M16.5 13.5H19.5" stroke="#F5A623" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      ANCHORED PATHWAYS
+    </a>
+    <span class="tag">Guías en inglés y español</span>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Family Guide · Adult Learners</span>
+    <h1>Starting Again</h1>
+    <h1 class="es">Comenzar de Nuevo</h1>
+    <p class="lead">It's never too late to return to education. Whether you want to finish high school, build new skills, or start a new career, Anchored Pathways is here to walk with you.</p>
+    <p class="lead es">Nunca es demasiado tarde para regresar a la educación. Anchored Pathways está aquí para acompañarle en su camino.</p>
+    <div class="chip-row">
+      <span class="chip">GED · ESL · Career Training</span>
+      <span class="chip">Free guidance</span>
+      <span class="chip">English &amp; Spanish</span>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">The Process</p>
+    <h2>Five steps to begin again</h2>
+    <p class="section-intro">This guide outlines where to begin and how to stay encouraged on your journey.</p>
+    <p class="section-intro es">Esta guía explica dónde comenzar y cómo mantenerse motivado en su camino.</p>
+
+    <div class="track">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <h3>Identify Your Goal</h3>
+        <h3 class="es">Identifique Su Meta</h3>
+        <p class="en">Ask yourself: What do I want to achieve? A GED? Job training? A college degree? Knowing your goal helps determine where to start and what support you'll need.</p>
+        <p class="es">¿Qué quiero lograr? ¿Mi GED? ¿Capacitación laboral? ¿Un título universitario? Saber su meta le ayudará a determinar dónde comenzar y qué apoyo necesitará.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <h3>Gather What You Already Have</h3>
+        <h3 class="es">Reúna lo que Ya Tiene</h3>
+        <p class="en">Collect your old transcripts, certificates, or training records. If you studied outside the U.S., you may need an evaluation to show equivalency. Anchored Pathways can connect you with resources to help.</p>
+        <p class="es">Reúna sus transcripciones, certificados o registros de capacitación anteriores. Si estudió fuera de los Estados Unidos, puede necesitar una evaluación de equivalencia.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <h3>Explore Programs That Fit Your Life</h3>
+        <h3 class="es">Explore Programas</h3>
+        <p class="en">Consider flexible options designed for working adults and parents:</p>
+        <ul style="margin:0 0 10px;padding-left:18px;font-size:14.5px;color:var(--ink);">
+          <li>GED and ESL programs through local colleges (HCC, Lone Star, San Jacinto)</li>
+          <li>Workforce training programs like Capital IDEA, WorkTexas, and SER Jobs</li>
+          <li>Online learning or hybrid programs for part-time students</li>
+        </ul>
+        <p class="es">Considere opciones flexibles diseñadas para adultos que trabajan y padres de familia: programas de GED y ESL, capacitación laboral, y aprendizaje en línea.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">4</div>
+        <h3>Look for Funding</h3>
+        <h3 class="es">Busque Financiamiento</h3>
+        <p class="en">Adults can qualify for grants, scholarships, and free training programs. Texas offers the Reskilling Support Fund, Workforce Solutions grants, and other local aid for adults returning to school.</p>
+        <p class="en">If you are not eligible to complete the FAFSA, you may have other financial aid options depending on current Texas rules and the institution you plan to attend. Anchored Pathways can help you determine which application and funding sources may apply to your situation.</p>
+        <p class="es">Si no es elegible para completar la FAFSA, puede tener otras opciones de ayuda financiera según las reglas actuales de Texas y la institución a la que desea asistir. Anchored Pathways puede ayudarle a identificar qué solicitud y qué apoyos podrían corresponder a su situación.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">5</div>
+        <h3>Build Your Support System</h3>
+        <h3 class="es">Construya su Sistema de Apoyo</h3>
+        <p class="en">Returning to school takes courage. Surround yourself with people who encourage you — family, mentors, church, or community. Anchored Pathways can help you find support networks and resources for success.</p>
+        <p class="es">Regresar a la escuela requiere valentía. Rodéese de personas que le animen: familia, mentores, iglesia o comunidad. Anchored Pathways puede ayudarle a encontrar redes de apoyo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="alert">
+      <div class="a-head"><span>⚠️ IMPORTANT / IMPORTANTE</span></div>
+      <p><strong>Texas Licensing Alert:</strong> Some training programs lead to careers that require a state license. Texas now requires documentation establishing lawful presence for certain professional licenses regulated by TDLR. Before starting a training program for a licensed field, verify the requirements first.</p>
+      <p class="es">Alerta de Licencias en Texas: Algunos programas de capacitación conducen a carreras que requieren una licencia estatal. Texas ahora exige documentación que establezca presencia legal para ciertas licencias profesionales reguladas por TDLR. Antes de iniciar un programa de capacitación para un campo con licencia, verifique primero los requisitos.</p>
+    </div>
+  </div>
+</section>
+
+<div class="cta">
+  <div class="wrap">
+    <p class="kicker">How Anchored Pathways Can Help</p>
+    <h2>We'll walk beside you.</h2>
+    <h2 class="es">Cómo Puede Ayudar Anchored Pathways</h2>
+    <p>We support adults who are reentering education and exploring their next step. From identifying goals to connecting with local classes, funding options, and licensing guidance, Anchored Pathways helps adults move forward with clarity and confidence.</p>
+    <p class="es">Apoyamos a los adultos que regresan a la educación y exploran su próximo paso. Desde identificar metas hasta conectar con clases locales, opciones de financiamiento y orientación sobre licencias, Anchored Pathways ayuda a los adultos a avanzar con claridad y confianza.</p>
+    <a class="btn" href="mailto:contact@anchoredpathways.org">Contact Us</a>
+    <p class="sub">📧 contact@anchoredpathways.org &nbsp;·&nbsp; 🌐 www.anchoredpathways.org</p>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>Anchored Pathways to Higher Education &nbsp;·&nbsp; EIN 39-4454436 &nbsp;·&nbsp; 501(c)(3) Nonprofit</p>
+  </div>
+</footer>
+
+</body>
+</html>

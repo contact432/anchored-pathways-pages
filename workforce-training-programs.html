@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<title>Workforce Training Programs — Houston & Gulf Coast | Anchored Pathways</title>
+<meta name="description" content="A resource guide to free and low-cost workforce training programs across Houston and the Gulf Coast region.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal-deep:#1A5F6E; --teal-navy:#14505E; --teal-mid:#2A8A96;
+    --gold:#F5A623; --amber:#E8832A; --white:#FFFFFF;
+    --ink:#0F2A31; --ink-soft:#3C5A61; --paper:#F5FAFA; --card:#FFFFFF; --line:#D9E7E8;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;background:var(--paper);color-scheme:light;}
+  body{margin:0;min-height:100dvh;background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;color-scheme:light;}
+  h1,h2,h3{font-family:'Unbounded',sans-serif;color:var(--teal-navy);line-height:1.15;margin:0;}
+  a{color:var(--teal-deep);}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px;}
+
+  .topbar{background:var(--teal-navy);color:var(--white);padding:14px 0;}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Unbounded';font-weight:600;font-size:14px;letter-spacing:.02em;color:var(--white);text-decoration:none;}
+  .brand-mark{width:26px;height:26px;flex:none;}
+  .topbar .tag{font-size:12px;color:#BFE0E6;font-weight:500;}
+
+  .hero{background:linear-gradient(160deg,var(--teal-navy) 0%,var(--teal-deep) 62%,var(--teal-mid) 100%);color:var(--white);padding:48px 0 42px;}
+  .eyebrow{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);background:rgba(245,166,35,.14);border:1px solid rgba(245,166,35,.4);padding:5px 12px;border-radius:100px;margin-bottom:18px;}
+  .hero h1{font-size:28px;font-weight:700;margin-bottom:6px;color:var(--white);}
+  .hero h1.es{font-size:16px;font-weight:500;font-style:italic;color:#BFE0E6;margin-bottom:18px;font-family:'Inter';}
+  .hero p.lead{font-size:15.5px;color:#DCEEF0;max-width:58ch;margin:0 0 6px;}
+  .hero p.lead.es{font-style:italic;color:#A9D3D8;font-size:14px;margin-bottom:20px;}
+  .chip-row{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{font-size:12.5px;font-weight:600;color:var(--teal-navy);background:var(--white);padding:6px 12px;border-radius:100px;}
+
+  section{padding:44px 0;background:var(--paper);}
+  section.alt{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .kicker{font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);margin-bottom:8px;}
+  h2{font-size:23px;font-weight:700;margin-bottom:8px;}
+  .section-intro{color:var(--ink-soft);font-size:15px;max-width:60ch;margin-bottom:26px;}
+  .section-intro.es{font-style:italic;font-size:13.5px;margin-top:-16px;margin-bottom:26px;}
+
+  .alert{background:#FFF6E9;border:1px solid #F5D9A8;border-radius:var(--radius);padding:18px 20px;}
+  .alert .a-head{margin-bottom:8px;}
+  .alert .a-head span{font-family:'Unbounded';font-weight:700;font-size:14px;color:var(--amber);}
+  .alert p{font-size:14px;color:var(--ink);margin:0 0 8px;}
+  .alert p.es{font-style:italic;color:var(--ink-soft);font-size:13px;margin:0;}
+
+  .res-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin-bottom:14px;}
+  .res-card h3{font-size:16.5px;margin-bottom:6px;}
+  .res-card p.desc{color:var(--ink-soft);font-size:13.5px;margin:0 0 4px;}
+  .res-card p.desc.es{font-style:italic;margin:0 0 12px;}
+  .res-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;}
+  .meta-chip{font-size:12px;font-weight:600;color:var(--teal-deep);background:#E4F1F2;padding:5px 10px;border-radius:100px;white-space:nowrap;}
+  .meta-chip.cost{color:var(--white);background:var(--amber);}
+  .meta-chip a{color:inherit;text-decoration:none;}
+
+  .cta{background:var(--teal-navy);color:var(--white);text-align:center;padding:48px 0 44px;}
+  .cta .kicker{color:var(--gold);}
+  .cta h2{color:var(--white);font-size:25px;margin-bottom:4px;}
+  .cta h2.es{font-size:15.5px;font-weight:500;font-style:italic;color:#BFE0E6;font-family:'Inter';margin-bottom:14px;}
+  .cta p{color:#DCEEF0;font-size:15px;max-width:52ch;margin:0 auto 6px;}
+  .cta p.es{font-style:italic;color:#A9D3D8;font-size:13.5px;margin:0 auto 22px;}
+  .btn{display:inline-block;background:var(--gold);color:var(--teal-navy);font-family:'Unbounded';font-weight:700;font-size:14px;padding:14px 28px;border-radius:100px;text-decoration:none;}
+  .btn:hover{background:#ffb745;}
+  .cta .sub{margin-top:16px;font-size:12.5px;color:#9FC9CE;}
+
+  footer{padding:26px 0 40px;text-align:center;font-size:12px;color:var(--ink-soft);background:var(--paper);}
+  footer p{margin:4px 0;}
+  @media(min-width:640px){.hero h1{font-size:33px;}.hero h1.es{font-size:19px;}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="https://anchoredpathways.org">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="6" r="2.6" stroke="#F5A623" stroke-width="1.6"/>
+        <path d="M12 8.6V19M12 19C8.5 19 6 16.8 6 13.5M12 19c3.5 0 6-2.2 6-5.5" stroke="#F5A623" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M4.5 13.5H7.5M16.5 13.5H19.5" stroke="#F5A623" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      ANCHORED PATHWAYS
+    </a>
+    <span class="tag">Guías en inglés y español</span>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Resource Directory</span>
+    <h1>Workforce Training Programs</h1>
+    <h1 class="es">Programas de Capacitación Laboral</h1>
+    <p class="lead">Houston &amp; Gulf Coast Region — free or low-cost training that leads to better jobs and stable careers.</p>
+    <p class="lead es">Región de Houston y la Costa del Golfo — oportunidades de capacitación gratuitas o de bajo costo.</p>
+    <div class="chip-row">
+      <span class="chip">6 programs</span>
+      <span class="chip">Free / low-cost</span>
+      <span class="chip">English &amp; Spanish</span>
+    </div>
+  </div>
+</div>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="alert">
+      <div class="a-head"><span>⚠️ IMPORTANT / IMPORTANTE</span></div>
+      <p><strong>Texas Licensing Alert:</strong> Some trades and careers require a state license. Texas now requires documentation establishing lawful presence for certain professional licenses regulated by TDLR. Before enrolling, check whether your chosen career path requires licensure and whether additional eligibility rules may apply. Anchored Pathways can help you ask the right questions before you invest your time and money.</p>
+      <p class="es">Alerta de Licencias en Texas: Algunos oficios y carreras requieren una licencia estatal. Texas ahora exige documentación que establezca presencia legal para ciertas licencias profesionales reguladas por TDLR. Antes de inscribirse, verifique si la carrera que le interesa requiere licencia y si aplican requisitos adicionales. Anchored Pathways puede ayudarle a hacer las preguntas correctas antes de invertir su tiempo y dinero.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Where to Start</p>
+    <h2>Programs near you</h2>
+    <p class="section-intro">This resource guide helps adults find free or low-cost training opportunities that can lead to better jobs and stable careers.</p>
+    <p class="section-intro es">Esta guía de recursos ayuda a los adultos a encontrar oportunidades de capacitación gratuitas o de bajo costo que pueden conducir a mejores empleos y carreras estables.</p>
+
+    <div class="res-card">
+      <h3>Capital IDEA Houston</h3>
+      <p class="desc">Provides fully-funded education and career training leading to higher-wage jobs in healthcare, trades, and technology.</p>
+      <p class="desc es">Ofrece educación y capacitación profesional totalmente financiada en salud, oficios y tecnología.</p>
+      <div class="res-meta">
+        <span class="meta-chip">📍 Greater Houston Area</span>
+        <span class="meta-chip cost">Free for eligible adults</span>
+        <span class="meta-chip"><a href="https://capitalideahouston.org" target="_blank" rel="noopener">🌐 capitalideahouston.org</a></span>
+        <span class="meta-chip">☎ 832-500-4560</span>
+        <span class="meta-chip">🗓️ Applications year-round</span>
+      </div>
+    </div>
+
+    <div class="res-card">
+      <h3>Christian Community Service Center (CCSC)</h3>
+      <p class="desc">Offers job readiness, caregiver training, and small business training programs.</p>
+      <p class="desc es">Ofrece programas de preparación laboral, capacitación para cuidadores y entrenamiento para pequeños negocios.</p>
+      <div class="res-meta">
+        <span class="meta-chip">📍 Houston, TX</span>
+        <span class="meta-chip cost">Low-cost or free</span>
+        <span class="meta-chip"><a href="https://ccschouston.org" target="_blank" rel="noopener">🌐 ccschouston.org</a></span>
+        <span class="meta-chip">☎ 713-961-3993</span>
+        <span class="meta-chip">🗓️ Contact for session dates</span>
+      </div>
+    </div>
+
+    <div class="res-card">
+      <h3>WorkTexas Training Center</h3>
+      <p class="desc">Hands-on workforce programs in welding, carpentry, electrical, HVAC, plumbing, and healthcare support.</p>
+      <p class="desc es">Ofrece programas prácticos de capacitación en soldadura, carpintería, electricidad, HVAC, plomería y asistencia médica.</p>
+      <div class="res-meta">
+        <span class="meta-chip">📍 Houston, TX (Heights area)</span>
+        <span class="meta-chip cost">Free for eligible adults</span>
+        <span class="meta-chip"><a href="https://worktexas.org" target="_blank" rel="noopener">🌐 worktexas.org</a></span>
+        <span class="meta-chip">☎ 713-337-5800</span>
+        <span class="meta-chip">🗓️ Contact for enrollment dates</span>
+      </div>
+    </div>
+
+    <div class="res-card">
+      <h3>SER Jobs for Progress — Houston</h3>
+      <p class="desc">Job training and employment services in construction, CDL, welding, heavy equipment operation, and more.</p>
+      <p class="desc es">Ofrece capacitación y servicios de empleo en construcción, CDL, soldadura, operación de maquinaria pesada y más.</p>
+      <div class="res-meta">
+        <span class="meta-chip">📍 Houston, TX (Near East End)</span>
+        <span class="meta-chip cost">Free for income-eligible adults</span>
+        <span class="meta-chip"><a href="https://serhouston.org" target="_blank" rel="noopener">🌐 serhouston.org</a></span>
+        <span class="meta-chip">☎ 713-773-6000</span>
+        <span class="meta-chip">🗓️ Orientation every month</span>
+      </div>
+    </div>
+
+    <div class="res-card">
+      <h3>Houston Community College — Workforce &amp; Continuing Education</h3>
+      <p class="desc">Short-term training programs in technology, logistics, welding, healthcare, and business management.</p>
+      <p class="desc es">Programas de capacitación a corto plazo en tecnología, logística, soldadura, salud y administración de empresas.</p>
+      <div class="res-meta">
+        <span class="meta-chip">📍 Multiple Houston campuses</span>
+        <span class="meta-chip cost">Low-cost; aid available</span>
+        <span class="meta-chip"><a href="https://hccs.edu/continuing-education" target="_blank" rel="noopener">🌐 hccs.edu/continuing-education</a></span>
+        <span class="meta-chip">☎ 713-718-2000</span>
+        <span class="meta-chip">🗓️ Multiple start dates</span>
+      </div>
+    </div>
+
+    <div class="res-card">
+      <h3>Lone Star College — Adult Education &amp; Literacy</h3>
+      <p class="desc">ESL, GED, and workforce bridge programs that connect English learners to training opportunities.</p>
+      <p class="desc es">Ofrece programas de ESL, GED y puente laboral que conectan a los estudiantes de inglés con oportunidades de capacitación.</p>
+      <div class="res-meta">
+        <span class="meta-chip">📍 Harris &amp; Montgomery Counties</span>
+        <span class="meta-chip cost">Free</span>
+        <span class="meta-chip"><a href="https://lonestar.edu/adult-education" target="_blank" rel="noopener">🌐 lonestar.edu/adult-education</a></span>
+        <span class="meta-chip">☎ 832-813-6500</span>
+        <span class="meta-chip">🗓️ Multiple start dates</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta">
+  <div class="wrap">
+    <p class="kicker">Need Help Getting Started?</p>
+    <h2>We'll connect you directly.</h2>
+    <h2 class="es">Le conectamos directamente</h2>
+    <p>If you need help getting started with any of these programs, contact Anchored Pathways. We can help you explore your options, prepare your documents, and connect directly with a program near you.</p>
+    <p class="es">Si necesita ayuda para comenzar con alguno de estos programas, comuníquese con Anchored Pathways. Podemos ayudarle a explorar sus opciones y conectarle con un programa cerca de usted.</p>
+    <a class="btn" href="mailto:contact@anchoredpathways.org">Contact Us</a>
+    <p class="sub">📧 contact@anchoredpathways.org &nbsp;·&nbsp; 🌐 www.anchoredpathways.org</p>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>Anchored Pathways to Higher Education &nbsp;·&nbsp; EIN 39-4454436 &nbsp;·&nbsp; 501(c)(3) Nonprofit</p>
+  </div>
+</footer>
+
+</body>
+</html>

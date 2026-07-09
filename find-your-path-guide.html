@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<title>Find Your Path: Education & Career Map — Anchored Pathways</title>
+<meta name="description" content="A bilingual guide comparing workforce training, community college, university, and adult education paths.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal-deep:#1A5F6E; --teal-navy:#14505E; --teal-mid:#2A8A96;
+    --gold:#F5A623; --amber:#E8832A; --white:#FFFFFF;
+    --ink:#0F2A31; --ink-soft:#3C5A61; --paper:#F5FAFA; --card:#FFFFFF; --line:#D9E7E8;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;background:var(--paper);color-scheme:light;}
+  body{margin:0;min-height:100dvh;background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;color-scheme:light;}
+  h1,h2,h3{font-family:'Unbounded',sans-serif;color:var(--teal-navy);line-height:1.15;margin:0;}
+  a{color:var(--teal-deep);}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px;}
+
+  .topbar{background:var(--teal-navy);color:var(--white);padding:14px 0;}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Unbounded';font-weight:600;font-size:14px;letter-spacing:.02em;color:var(--white);text-decoration:none;}
+  .brand-mark{width:26px;height:26px;flex:none;}
+  .topbar .tag{font-size:12px;color:#BFE0E6;font-weight:500;}
+
+  .hero{background:linear-gradient(160deg,var(--teal-navy) 0%,var(--teal-deep) 62%,var(--teal-mid) 100%);color:var(--white);padding:48px 0 42px;}
+  .eyebrow{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);background:rgba(245,166,35,.14);border:1px solid rgba(245,166,35,.4);padding:5px 12px;border-radius:100px;margin-bottom:18px;}
+  .hero h1{font-size:28px;font-weight:700;margin-bottom:6px;color:var(--white);}
+  .hero h1.es{font-size:16px;font-weight:500;font-style:italic;color:#BFE0E6;margin-bottom:18px;font-family:'Inter';}
+  .hero p.lead{font-size:15.5px;color:#DCEEF0;max-width:58ch;margin:0 0 6px;}
+  .hero p.lead.es{font-style:italic;color:#A9D3D8;font-size:14px;margin-bottom:20px;}
+  .chip-row{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{font-size:12.5px;font-weight:600;color:var(--teal-navy);background:var(--white);padding:6px 12px;border-radius:100px;}
+
+  section{padding:44px 0;background:var(--paper);}
+  section.alt{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .kicker{font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);margin-bottom:8px;}
+  h2{font-size:23px;font-weight:700;margin-bottom:8px;}
+  .section-intro{color:var(--ink-soft);font-size:15px;max-width:60ch;margin-bottom:6px;}
+  .section-intro.es{font-style:italic;font-size:13.5px;margin-bottom:26px;}
+
+  .path-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin-bottom:14px;display:flex;gap:14px;align-items:flex-start;}
+  .path-badge{flex:none;width:38px;height:38px;border-radius:10px;background:#E4F1F2;display:flex;align-items:center;justify-content:center;font-family:'Unbounded';font-weight:700;color:var(--teal-deep);font-size:15px;}
+  .path-card h3{font-size:16.5px;margin-bottom:5px;}
+  .path-card p{color:var(--ink-soft);font-size:14px;margin:0 0 8px;}
+  .path-time{display:inline-block;font-size:11.5px;font-weight:700;color:var(--white);background:var(--amber);padding:3px 9px;border-radius:100px;}
+
+  .qlist{list-style:none;margin:0;padding:0;display:grid;gap:10px;}
+  .qlist li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px;}
+  .qlist li p.en{margin:0 0 3px;font-size:14.5px;color:var(--ink);display:flex;gap:8px;}
+  .qlist li p.es{margin:0 0 0 28px;font-size:12.5px;font-style:italic;color:var(--ink-soft);}
+  .qmark{flex:none;width:20px;height:20px;border-radius:50%;border:2px solid var(--gold);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--amber);}
+
+  .org-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
+  .org-chip{font-size:13px;font-weight:600;color:var(--teal-deep);background:#E4F1F2;padding:7px 13px;border-radius:100px;}
+
+  .alert{background:#FFF6E9;border:1px solid #F5D9A8;border-radius:var(--radius);padding:18px 20px;}
+  .alert .a-head{margin-bottom:8px;}
+  .alert .a-head span{font-family:'Unbounded';font-weight:700;font-size:14px;color:var(--amber);}
+  .alert p{font-size:14px;color:var(--ink);margin:0 0 8px;}
+  .alert p.es{font-style:italic;color:var(--ink-soft);font-size:13px;margin:0;}
+
+  .cta{background:var(--teal-navy);color:var(--white);text-align:center;padding:48px 0 44px;}
+  .cta .kicker{color:var(--gold);}
+  .cta h2{color:var(--white);font-size:25px;margin-bottom:4px;}
+  .cta h2.es{font-size:15.5px;font-weight:500;font-style:italic;color:#BFE0E6;font-family:'Inter';margin-bottom:14px;}
+  .cta p{color:#DCEEF0;font-size:15px;max-width:52ch;margin:0 auto 6px;}
+  .cta p.es{font-style:italic;color:#A9D3D8;font-size:13.5px;margin:0 auto 22px;}
+  .btn{display:inline-block;background:var(--gold);color:var(--teal-navy);font-family:'Unbounded';font-weight:700;font-size:14px;padding:14px 28px;border-radius:100px;text-decoration:none;}
+  .btn:hover{background:#ffb745;}
+  .cta .sub{margin-top:16px;font-size:12.5px;color:#9FC9CE;}
+
+  footer{padding:26px 0 40px;text-align:center;font-size:12px;color:var(--ink-soft);background:var(--paper);}
+  footer p{margin:4px 0;}
+  @media(min-width:640px){.hero h1{font-size:33px;}.hero h1.es{font-size:19px;}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="https://anchoredpathways.org">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="6" r="2.6" stroke="#F5A623" stroke-width="1.6"/>
+        <path d="M12 8.6V19M12 19C8.5 19 6 16.8 6 13.5M12 19c3.5 0 6-2.2 6-5.5" stroke="#F5A623" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M4.5 13.5H7.5M16.5 13.5H19.5" stroke="#F5A623" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      ANCHORED PATHWAYS
+    </a>
+    <span class="tag">Guías en inglés y español</span>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Family Guide</span>
+    <h1>Find Your Path</h1>
+    <h1 class="es">Encuentra Tu Camino</h1>
+    <p class="lead">Education doesn't look the same for everyone — and that's okay. Every pathway can open doors to opportunity.</p>
+    <p class="lead es">La educación no se ve igual para todos — y eso está bien. Cada camino puede abrir puertas a la oportunidad.</p>
+    <div class="chip-row">
+      <span class="chip">4 paths compared</span>
+      <span class="chip">Free guidance</span>
+      <span class="chip">English &amp; Spanish</span>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Choose Your Path</p>
+    <h2>Four ways to move forward</h2>
+    <p class="section-intro">Each of these education paths can lead to success. Choose the one that fits your goals and life stage.</p>
+    <p class="section-intro es">Elija Su Camino — cada uno de estos caminos puede llevar al éxito.</p>
+
+    <div class="path-card">
+      <div class="path-badge">WT</div>
+      <div>
+        <h3>Workforce Training</h3>
+        <p>Learn a trade or earn a certification that leads directly to a job. Examples: Welding, HVAC, CNA, CDL.</p>
+        <span class="path-time">3–9 months</span>
+      </div>
+    </div>
+    <div class="path-card">
+      <div class="path-badge">CC</div>
+      <div>
+        <h3>Community College</h3>
+        <p>Earn an associate degree or transfer to a university. Affordable and local.</p>
+        <span class="path-time">2 years</span>
+      </div>
+    </div>
+    <div class="path-card">
+      <div class="path-badge">UN</div>
+      <div>
+        <h3>University</h3>
+        <p>Earn a bachelor's degree or higher. Offers broad career options and higher earning potential.</p>
+        <span class="path-time">4 years, or 2 after transfer</span>
+      </div>
+    </div>
+    <div class="path-card">
+      <div class="path-badge">AE</div>
+      <div>
+        <h3>Adult Education</h3>
+        <p>Improve English, complete your GED, or build foundational skills to enter college or job training.</p>
+        <span class="path-time">Ongoing, flexible</span>
+      </div>
+    </div>
+    <p style="font-size:12.5px;font-style:italic;color:var(--ink-soft);margin-top:4px;">Timelines vary by school, program, and enrollment status. / Los plazos varían según la escuela, el programa y el estado de inscripción.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <p class="kicker">Before You Choose</p>
+    <h2>Key questions to guide you</h2>
+    <p class="section-intro es" style="margin-bottom:20px;">Preguntas Clave</p>
+    <ul class="qlist">
+      <li><p class="en"><span class="qmark">?</span>What kind of work excites you or feels meaningful?</p><p class="es">¿Qué tipo de trabajo le entusiasma o le parece significativo?</p></li>
+      <li><p class="en"><span class="qmark">?</span>How much time can you commit to school or training?</p><p class="es">¿Cuánto tiempo puede dedicar a la escuela o capacitación?</p></li>
+      <li><p class="en"><span class="qmark">?</span>Do you need flexible hours, online learning, or evening classes?</p><p class="es">¿Necesita horarios flexibles, clases en línea o nocturnas?</p></li>
+      <li><p class="en"><span class="qmark">?</span>What financial support or aid do you qualify for? See our FAFSA/TASFA guide.</p><p class="es">¿Qué tipo de ayuda financiera puede recibir?</p></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Who We Work With</p>
+    <h2>Local opportunities</h2>
+    <p class="section-intro">Anchored Pathways helps families explore trusted programs across Houston and the Gulf Coast region.</p>
+    <p class="section-intro es">Anchored Pathways ayuda a las familias a explorar programas confiables en Houston y la región de la Costa del Golfo.</p>
+    <div class="org-row">
+      <span class="org-chip">Capital IDEA Houston</span>
+      <span class="org-chip">WorkTexas Training Center</span>
+      <span class="org-chip">SER Jobs for Progress</span>
+      <span class="org-chip">Houston Community College</span>
+      <span class="org-chip">Lone Star College Adult Education</span>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="alert">
+      <div class="a-head"><span>⚠️ IMPORTANT / IMPORTANTE</span></div>
+      <p><strong>Texas Licensing Alert:</strong> Some workforce pathways lead to careers that require a state license. Texas now requires documentation establishing lawful presence for certain professional licenses regulated by TDLR. Before enrolling in a training program, check whether your chosen pathway requires licensure and whether additional eligibility rules apply.</p>
+      <p class="es">Alerta de Licencias en Texas: Algunos caminos de capacitación conducen a carreras que requieren una licencia estatal. Texas ahora exige documentación que establezca presencia legal para ciertas licencias profesionales reguladas por TDLR. Antes de inscribirse en un programa, verifique si la carrera que le interesa requiere licencia y si aplican requisitos adicionales.</p>
+    </div>
+  </div>
+</section>
+
+<div class="cta">
+  <div class="wrap">
+    <p class="kicker">How Anchored Pathways Can Help</p>
+    <h2>Let's map out your path.</h2>
+    <h2 class="es">Cómo Puede Ayudar Anchored Pathways</h2>
+    <p>We help you compare programs, understand financial aid, check licensing requirements, and choose a path that fits your life and goals.</p>
+    <p class="es">Le ayudamos a comparar programas, entender la ayuda financiera, verificar requisitos de licencia y elegir el camino que se adapte a su vida.</p>
+    <a class="btn" href="mailto:contact@anchoredpathways.org">Contact Us</a>
+    <p class="sub">📧 contact@anchoredpathways.org &nbsp;·&nbsp; 🌐 www.anchoredpathways.org</p>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>Anchored Pathways to Higher Education &nbsp;·&nbsp; EIN 39-4454436 &nbsp;·&nbsp; 501(c)(3) Nonprofit</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<title>Military & Career Pathways — Anchored Pathways to Higher Education</title>
+<meta name="description" content="A guide for students and families weighing military service as a postsecondary path — ROTC, enlistment, Guard & Reserve, OCS, and the education benefits that follow.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal-deep:#1A5F6E;
+    --teal-navy:#14505E;
+    --teal-mid:#2A8A96;
+    --gold:#F5A623;
+    --amber:#E8832A;
+    --white:#FFFFFF;
+    --ink:#0F2A31;
+    --ink-soft:#3C5A61;
+    --paper:#F5FAFA;
+    --card:#FFFFFF;
+    --line:#D9E7E8;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html{
+    scroll-behavior:smooth;
+    background:var(--paper);
+    color-scheme:light;
+  }
+  body{
+    margin:0;
+    min-height:100dvh;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    color-scheme:light;
+  }
+  h1,h2,h3,.display{
+    font-family:'Unbounded',sans-serif;
+    color:var(--teal-navy);
+    line-height:1.15;
+    margin:0;
+  }
+  a{color:var(--teal-deep);}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px;}
+
+  /* Top bar */
+  .topbar{
+    background:var(--teal-navy);
+    color:var(--white);
+    padding:14px 0;
+  }
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Unbounded';font-weight:600;font-size:14px;letter-spacing:.02em;color:var(--white);text-decoration:none;}
+  .brand-mark{width:26px;height:26px;flex:none;}
+  .topbar .tag{font-size:12px;color:#BFE0E6;font-weight:500;}
+
+  /* Hero */
+  .hero{
+    background:linear-gradient(160deg,var(--teal-navy) 0%,var(--teal-deep) 62%,var(--teal-mid) 100%);
+    color:var(--white);
+    padding:52px 0 46px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero .wrap{position:relative;z-index:2;}
+  .eyebrow{
+    display:inline-block;
+    font-size:12.5px;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--gold);
+    background:rgba(245,166,35,.14);
+    border:1px solid rgba(245,166,35,.4);
+    padding:5px 12px;
+    border-radius:100px;
+    margin-bottom:18px;
+  }
+  .hero h1{font-size:30px;font-weight:700;margin-bottom:6px;color:var(--white);}
+  .hero h1.es{font-size:17px;font-weight:500;font-style:italic;color:#BFE0E6;margin-bottom:18px;font-family:'Inter';}
+  .hero p.lead{font-size:15.5px;color:#DCEEF0;max-width:56ch;margin:0 0 6px;}
+  .hero p.lead.es{font-style:italic;color:#A9D3D8;font-size:14px;margin-bottom:22px;}
+  .chip-row{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{
+    font-size:12.5px;font-weight:600;color:var(--teal-navy);
+    background:var(--white);
+    padding:6px 12px;border-radius:100px;
+  }
+
+  /* section framing */
+  section{padding:44px 0;background:var(--paper);}
+  section.alt{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .kicker{
+    font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--amber);margin-bottom:8px;
+  }
+  h2{font-size:23px;font-weight:700;margin-bottom:8px;}
+  h2.es{font-size:14.5px;font-weight:500;font-style:italic;color:var(--amber);font-family:'Inter';margin-bottom:12px;}
+  .section-intro{color:var(--ink-soft);font-size:15px;max-width:60ch;margin-bottom:6px;}
+  .section-intro.es{font-style:italic;font-size:13.5px;margin-bottom:28px;}
+
+  /* Route track (signature element) */
+  .track{position:relative;padding-left:26px;}
+  .track::before{
+    content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;
+    background:repeating-linear-gradient(to bottom,var(--teal-mid) 0,var(--teal-mid) 6px,transparent 6px,transparent 12px);
+  }
+  .route-card{
+    position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px 20px 18px;margin-bottom:16px;
+  }
+  .route-card::before{
+    content:"";position:absolute;left:-26px;top:26px;width:11px;height:11px;border-radius:50%;
+    background:var(--gold);border:2px solid var(--white);box-shadow:0 0 0 2px var(--teal-mid);
+  }
+  .route-card:last-child{margin-bottom:0;}
+  .route-badge{
+    display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--teal-deep);background:#E4F1F2;padding:4px 10px;border-radius:100px;margin-bottom:10px;
+  }
+  .route-card h3{font-size:18px;margin-bottom:2px;}
+  .route-card h3.es{font-size:13.5px;font-weight:500;font-style:italic;color:var(--amber);font-family:'Inter';margin-bottom:10px;}
+  .route-card p.desc{color:var(--ink-soft);font-size:14.5px;margin-bottom:4px;}
+  .route-card p.desc.es{font-style:italic;font-size:13px;margin-bottom:12px;}
+  .route-card ul{margin:0;padding-left:18px;font-size:14px;color:var(--ink);}
+  .route-card ul li{margin-bottom:5px;}
+  .fit{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);}
+  .fit p{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--amber);margin:0 0 6px;}
+  .track-end{
+    position:relative;margin-top:6px;padding:14px 16px;
+    background:var(--teal-navy);color:var(--white);border-radius:var(--radius);
+    font-family:'Unbounded';font-size:13.5px;font-weight:600;
+  }
+  .track-end::before{
+    content:"";position:absolute;left:-26px;top:50%;transform:translateY(-50%);width:11px;height:11px;border-radius:50%;
+    background:var(--white);border:2px solid var(--teal-navy);box-shadow:0 0 0 2px var(--gold);
+  }
+
+  /* Accordion (branches) */
+  .accordion{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;}
+  .acc-item{border-bottom:1px solid var(--line);}
+  .acc-item:last-child{border-bottom:none;}
+  .acc-head{
+    width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;
+    background:var(--card);border:none;padding:16px 18px;text-align:left;cursor:pointer;
+    font-family:'Unbounded';font-size:14.5px;font-weight:600;color:var(--teal-navy);
+  }
+  .acc-head:hover{background:#F0F8F8;}
+  .acc-head .arrow{transition:transform .2s ease;color:var(--gold);font-size:16px;flex:none;}
+  .acc-item.open .acc-head .arrow{transform:rotate(45deg);}
+  .acc-body{max-height:0;overflow:hidden;transition:max-height .25s ease;background:#FBFDFD;}
+  .acc-item.open .acc-body{max-height:220px;}
+  .acc-body-inner{padding:2px 18px 16px;font-size:14px;color:var(--ink-soft);}
+
+  /* Skills table */
+  .skill-card{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:16px 18px;margin-bottom:12px;
+  }
+  .skill-card h3{font-size:15.5px;margin-bottom:2px;color:var(--teal-navy);}
+  .skill-card h3.es{font-size:12px;font-weight:500;font-style:italic;color:var(--amber);font-family:'Inter';margin-bottom:6px;}
+  .skill-card p{margin:0;font-size:14px;color:var(--ink-soft);}
+  .skill-card p.es{font-style:italic;font-size:12.5px;margin-top:4px;}
+  .growth{
+    display:inline-block;margin-top:8px;font-size:12px;font-weight:700;color:var(--white);
+    background:var(--amber);padding:3px 9px;border-radius:100px;
+  }
+  .tool-box{
+    margin-top:18px;padding:16px 18px;border-radius:var(--radius);
+    background:#FFF6E9;border:1px solid #F5D9A8;font-size:14px;color:var(--ink);
+  }
+  .tool-box a{color:var(--amber);font-weight:700;}
+
+  /* GI Bill highlight */
+  .gi-wrap{
+    background:linear-gradient(160deg,var(--teal-deep),var(--teal-mid));
+    border-radius:18px;padding:26px 22px;color:var(--white);
+  }
+  .gi-wrap h2{color:var(--white);}
+  .gi-wrap .section-intro{color:#DCEEF0;}
+  .gi-grid{display:grid;gap:14px;}
+  .gi-item{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.2);border-radius:12px;padding:16px 16px;}
+  .gi-item h3{font-family:'Unbounded';font-size:15px;color:var(--gold);margin-bottom:6px;}
+  .gi-item ul{margin:0;padding-left:18px;font-size:13.5px;color:#EAF6F7;}
+  .gi-item ul li{margin-bottom:5px;}
+  .gi-item p.es{font-style:italic;font-size:12.5px;color:#BFE0E6;margin:8px 0 0;}
+
+  /* Questions checklist */
+  .qlist{list-style:none;margin:0;padding:0;display:grid;gap:10px;}
+  .qlist li{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px;font-size:14.5px;
+  }
+  .qlist li .qrow{display:flex;gap:10px;align-items:flex-start;}
+  .qlist li p.es{margin:4px 0 0 30px;font-size:12.5px;font-style:italic;color:var(--ink-soft);}
+  .qmark{
+    flex:none;width:20px;height:20px;border-radius:50%;border:2px solid var(--gold);
+    display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--amber);
+    margin-top:1px;
+  }
+
+  /* CTA */
+  .cta{
+    background:var(--teal-navy);color:var(--white);text-align:center;padding:48px 0 44px;
+  }
+  .cta .kicker{color:var(--gold);}
+  .cta h2{color:var(--white);font-size:25px;margin-bottom:4px;}
+  .cta h2.es{font-size:15px;font-weight:500;font-style:italic;color:#BFE0E6;font-family:'Inter';margin-bottom:14px;}
+  .cta p{color:#DCEEF0;font-size:15px;max-width:48ch;margin:0 auto 6px;}
+  .cta p.es{font-style:italic;color:#A9D3D8;font-size:13.5px;margin:0 auto 22px;}
+  .btn{
+    display:inline-block;background:var(--gold);color:var(--teal-navy);font-family:'Unbounded';
+    font-weight:700;font-size:14px;padding:14px 28px;border-radius:100px;text-decoration:none;
+  }
+  .btn:hover{background:#ffb745;}
+  .cta .sub{margin-top:16px;font-size:12.5px;color:#9FC9CE;}
+
+  footer{padding:26px 0 40px;text-align:center;font-size:12px;color:var(--ink-soft);background:var(--paper);}
+  footer p{margin:4px 0;}
+
+  @media(min-width:640px){
+    .hero h1{font-size:36px;}
+    .hero h1.es{font-size:20px;}
+    .gi-grid{grid-template-columns:1fr 1fr;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="https://anchoredpathways.org">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="6" r="2.6" stroke="#F5A623" stroke-width="1.6"/>
+        <path d="M12 8.6V19M12 19C8.5 19 6 16.8 6 13.5M12 19c3.5 0 6-2.2 6-5.5" stroke="#F5A623" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M4.5 13.5H7.5M16.5 13.5H19.5" stroke="#F5A623" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      ANCHORED PATHWAYS
+    </a>
+    <span class="tag">Guías en inglés y español</span>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Family Guide</span>
+    <h1>Military service is a real path forward.</h1>
+    <h1 class="es">El servicio militar es un camino real hacia adelante.</h1>
+    <p class="lead">It comes with education benefits, career training, a paycheck, and a structured path. Here's what every route requires — and what to ask before deciding.</p>
+    <p class="lead es">Incluye beneficios educativos, capacitación profesional, un salario y un camino estructurado. Esto es lo que requiere cada ruta, y qué preguntar antes de decidir.</p>
+    <div class="chip-row">
+      <span class="chip">Free 1-on-1 sessions</span>
+      <span class="chip">Private</span>
+      <span class="chip">English &amp; Spanish</span>
+      <span class="chip">No pressure, no obligation</span>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Ways In</p>
+    <h2>Four routes into service</h2>
+    <h2 class="es">Cuatro rutas para ingresar al servicio</h2>
+    <p class="section-intro">Every path below leads to the same place — education benefits after service. The difference is when college happens, and whether a student enters as an officer or enlists first.</p>
+    <p class="section-intro es">Cada camino lleva al mismo lugar: beneficios educativos después del servicio. La diferencia está en cuándo ocurre la universidad y si el estudiante ingresa como oficial o se alista primero.</p>
+
+    <div class="track">
+      <div class="route-card">
+        <span class="route-badge">Officer · College First</span>
+        <h3>ROTC — Reserve Officers' Training Corps</h3>
+        <h3 class="es">ROTC — Cuerpo de Entrenamiento de Oficiales de Reserva</h3>
+        <p class="desc">Attend college full-time while training to become a military officer. Graduate with a degree <em>and</em> a commission.</p>
+        <p class="desc es">Asista a la universidad a tiempo completo mientras se entrena para ser oficial militar. Se gradúa con un título y un nombramiento como oficial.</p>
+        <ul>
+          <li>Enroll at a college with an Army, Navy/Marine Corps, Air Force, or Space Force ROTC program</li>
+          <li>Complete coursework and physical training alongside regular classes</li>
+          <li>Scholarships can cover up to 100% of tuition and fees, plus a monthly stipend</li>
+          <li>Apply junior or senior year of high school — deadlines vary by branch</li>
+        </ul>
+        <div class="fit">
+          <p>Best fit for students who</p>
+          <ul><li>Want a degree AND military service</li><li>Are drawn to leadership and management roles</li><li>Need financial help paying for college</li></ul>
+        </div>
+      </div>
+
+      <div class="route-card">
+        <span class="route-badge">Enlisted · Full-Time</span>
+        <h3>Enlisted Service</h3>
+        <h3 class="es">Servicio Alistado</h3>
+        <p class="desc">Join directly after high school. Pay, housing, healthcare, and job training start day one — plus education benefits to use later.</p>
+        <p class="desc es">Únase directamente después de la escuela secundaria. El salario, la vivienda, la atención médica y la capacitación laboral comienzan desde el primer día, además de beneficios educativos para usar más adelante.</p>
+        <ul>
+          <li>8–12 weeks of basic training (varies by branch)</li>
+          <li>Assigned a specific job or skill area (MOS)</li>
+          <li>Typical commitment: 4 years active duty</li>
+          <li>Tuition Assistance: up to $4,500/year for college courses while serving</li>
+        </ul>
+        <div class="fit">
+          <p>Six branches to research</p>
+          <ul><li>Army, Navy, Marine Corps, Air Force, Space Force, Coast Guard — each has different jobs, culture, and deployment patterns</li></ul>
+        </div>
+      </div>
+
+      <div class="route-card">
+        <span class="route-badge">Part-Time · Close to Home</span>
+        <h3>National Guard &amp; Reserves</h3>
+        <h3 class="es">Guardia Nacional y Reservas</h3>
+        <p class="desc">Serve part-time — about one weekend a month and two weeks a year — while living and working in your community.</p>
+        <p class="desc es">Sirva a tiempo parcial, aproximadamente un fin de semana al mes y dos semanas al año, mientras vive y trabaja en su comunidad.</p>
+        <ul>
+          <li><strong>Texas Hazlewood Act:</strong> Texas National Guard members may qualify for up to 150 credit hours of tuition exemption at Texas public colleges</li>
+          <li>One of the most valuable state education benefits in the country</li>
+          <li>Available to eligible veterans, active duty, and Guard/Reserve members who are Texas residents</li>
+        </ul>
+        <div class="fit">
+          <p>Best fit for students who</p>
+          <ul><li>Want to stay close to home and community</li><li>Want education benefits without a full-time commitment</li><li>Are drawn to emergency response or state-level roles</li></ul>
+        </div>
+      </div>
+
+      <div class="route-card">
+        <span class="route-badge">Officer · After a Degree</span>
+        <h3>OCS — Officer Candidate School</h3>
+        <h3 class="es">OCS — Escuela de Candidatos a Oficial</h3>
+        <p class="desc">The path to becoming an officer for college graduates who didn't do ROTC. Enlist, complete OCS, receive a commission.</p>
+        <p class="desc es">El camino para convertirse en oficial para quienes ya tienen un título universitario y no hicieron ROTC. Se alista, completa la OCS y recibe un nombramiento como oficial.</p>
+        <ul>
+          <li>Must have a bachelor's degree (any major)</li>
+          <li>Meet age, fitness, and background requirements per branch</li>
+          <li>Program length typically 10–17 weeks</li>
+        </ul>
+        <div class="fit">
+          <p>Best fit for students who</p>
+          <ul><li>Already have or are finishing a degree</li><li>Want officer status and leadership responsibility</li><li>Didn't do ROTC but want to serve</li></ul>
+        </div>
+      </div>
+
+      <div class="track-end">Every route above can lead to GI Bill education benefits after service ↓<br><span style="font-weight:400;font-style:italic;font-size:12px;color:#BFE0E6;">Cada ruta anterior puede llevar a beneficios educativos del GI Bill después del servicio ↓</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <p class="kicker">By Branch</p>
+    <h2>Career fields by branch</h2>
+    <h2 class="es">Campos profesionales por rama</h2>
+    <p class="section-intro">Each branch trains for its own mission, so the jobs available look different depending on where a student enlists. Tap a branch to see its broad career fields.</p>
+    <p class="section-intro es">Cada rama entrena para su propia misión, por lo que los empleos disponibles varían según dónde se aliste el estudiante. Toque una rama para ver sus campos profesionales.</p>
+
+    <div class="accordion" id="accordion">
+      <div class="acc-item">
+        <button class="acc-head"><span>Army <em style="font-weight:400;font-style:italic;opacity:.7;">· Ejército</em></span><span class="arrow">+</span></button>
+        <div class="acc-body"><div class="acc-body-inner">Infantry &amp; combat arms, aviation, cyber &amp; signal, military police, intelligence, medical, engineering &amp; construction, logistics.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head"><span>Navy <em style="font-weight:400;font-style:italic;opacity:.7;">· Marina</em></span><span class="arrow">+</span></button>
+        <div class="acc-body"><div class="acc-body-inner">Naval aviation, nuclear power &amp; submarines, medical, cryptology &amp; intelligence, special warfare, logistics &amp; supply.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head"><span>Marine Corps <em style="font-weight:400;font-style:italic;opacity:.7;">· Infantería de Marina</em></span><span class="arrow">+</span></button>
+        <div class="acc-body"><div class="acc-body-inner">Infantry, intelligence &amp; communications, aviation maintenance, logistics, military police, combat engineering.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head"><span>Air Force <em style="font-weight:400;font-style:italic;opacity:.7;">· Fuerza Aérea</em></span><span class="arrow">+</span></button>
+        <div class="acc-body"><div class="acc-body-inner">Aviation &amp; flight, cyber &amp; intelligence, maintenance &amp; repair, healthcare, science &amp; engineering, security forces.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head"><span>Space Force <em style="font-weight:400;font-style:italic;opacity:.7;">· Fuerza Espacial</em></span><span class="arrow">+</span></button>
+        <div class="acc-body"><div class="acc-body-inner">Space operations, intelligence, cyber operations, engineering, acquisitions &amp; contracting. Newest branch — highly technical and officer-heavy.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head"><span>Coast Guard <em style="font-weight:400;font-style:italic;opacity:.7;">· Guardia Costera</em></span><span class="arrow">+</span></button>
+        <div class="acc-body"><div class="acc-body-inner">Deck &amp; weapons, engineering, aviation, maritime law enforcement &amp; search and rescue, administration &amp; science.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">After Service</p>
+    <h2>Military jobs that transition best to civilian careers</h2>
+    <h2 class="es">Empleos militares que mejor se transforman en carreras civiles</h2>
+    <p class="section-intro">Every military job builds transferable skills, but some fields map onto civilian careers more directly — based on U.S. Bureau of Labor Statistics data comparing military and civilian occupation codes.</p>
+    <p class="section-intro es">Todo empleo militar desarrolla habilidades transferibles, pero algunos campos se relacionan más directamente con carreras civiles, según datos de la Oficina de Estadísticas Laborales de EE. UU.</p>
+
+    <div class="skill-card">
+      <h3>Cybersecurity &amp; IT</h3>
+      <h3 class="es">Ciberseguridad y TI</h3>
+      <p>Cyber and IT roles (Army 17-series, Navy IT, Air Force cyber defense) lead to information security analyst and network administrator jobs.</p>
+      <p class="es">Estos puestos conducen a empleos como analista de seguridad de la información y administrador de redes.</p>
+      <span class="growth">Projected 33% growth</span>
+    </div>
+    <div class="skill-card">
+      <h3>Healthcare</h3>
+      <h3 class="es">Atención Médica</h3>
+      <p>Combat medics and corpsmen translate to EMT or paramedic — and with more schooling, registered nurse or physician assistant.</p>
+      <p class="es">Los médicos de combate se convierten en técnicos de emergencias médicas o, con más estudios, en enfermeros registrados.</p>
+      <span class="growth">Nurse practitioner: 46% growth</span>
+    </div>
+    <div class="skill-card">
+      <h3>Logistics &amp; Supply Chain</h3>
+      <h3 class="es">Logística y Cadena de Suministro</h3>
+      <p>Supply and logistics roles across every branch map almost one-to-one to supply chain coordinator, logistician, and operations roles.</p>
+      <p class="es">Estos puestos se relacionan casi directamente con roles de coordinador de cadena de suministro y logística.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Skilled Trades</h3>
+      <h3 class="es">Oficios Especializados</h3>
+      <p>Construction, electrical, and mechanical training leads to licensed trade work — often with credit toward apprenticeship hours. Strong pay, no student debt required.</p>
+      <p class="es">La capacitación en construcción, electricidad y mecánica conduce a trabajos de oficio con licencia, con buena paga y sin deuda estudiantil.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Law Enforcement &amp; Security</h3>
+      <h3 class="es">Aplicación de la Ley y Seguridad</h3>
+      <p>Military Police and Security Forces roles translate directly to civilian police work, corporate security, and federal protective services.</p>
+      <p class="es">Se traducen directamente en trabajo policial civil, seguridad corporativa y servicios de protección federal.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Leadership &amp; Operations</h3>
+      <h3 class="es">Liderazgo y Operaciones</h3>
+      <p>Even roles without a direct civilian match — like infantry — build leadership, planning, and team-management experience valued across every industry.</p>
+      <p class="es">Desarrollan experiencia en liderazgo y gestión de equipos, valorada en toda industria.</p>
+    </div>
+
+    <div class="tool-box">
+      <strong>Free tool:</strong> the O*NET Military Crosswalk lets a student search their exact military job code (MOS, AFSC, or rating) for a personalized list of matching civilian careers, required education, and typical pay. <a href="https://www.onetonline.org/crosswalk/MOC" target="_blank" rel="noopener">onetonline.org/crosswalk/MOC</a>
+      <p style="margin:8px 0 0;font-style:italic;font-size:12.5px;color:var(--ink-soft);">Herramienta gratuita: busque el código de empleo militar exacto para obtener una lista personalizada de carreras civiles equivalentes.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <p class="kicker">The Payoff</p>
+    <h2>GI Bill &amp; education benefits after service</h2>
+    <h2 class="es">GI Bill y beneficios educativos después del servicio</h2>
+    <p class="section-intro" style="margin-bottom:2px;">Veterans who complete their service obligation qualify for benefits that can cover college, trade school, certificate programs, and more.</p>
+    <p class="section-intro es" style="margin-bottom:18px;">Los veteranos que completan su obligación de servicio califican para beneficios que pueden cubrir la universidad, la escuela vocacional y más.</p>
+
+    <div class="gi-wrap">
+      <div class="gi-grid">
+        <div class="gi-item">
+          <h3>Post-9/11 GI Bill (Ch. 33)</h3>
+          <ul>
+            <li>100% of tuition and fees at public in-state schools</li>
+            <li>Monthly housing allowance + book/supply stipend</li>
+            <li>Up to 36 months of benefits (~4 academic years)</li>
+            <li>Can transfer to a spouse or dependent child in some cases</li>
+          </ul>
+          <p class="es">Cubre el 100% de la matrícula y cuotas, incluye una asignación mensual de vivienda y hasta 36 meses de beneficios.</p>
+        </div>
+        <div class="gi-item">
+          <h3>Montgomery GI Bill (Ch. 30)</h3>
+          <ul>
+            <li>Monthly stipend depending on enrollment and training type</li>
+            <li>Requires a $1,200 contribution during service to activate</li>
+          </ul>
+          <p class="es">Estipendio mensual que depende del tipo de inscripción; requiere una contribución de $1,200 durante el servicio.</p>
+        </div>
+        <div class="gi-item" style="grid-column:1/-1;">
+          <h3>Vocational Rehabilitation (Ch. 31)</h3>
+          <ul>
+            <li>For veterans with a service-connected disability</li>
+            <li>Covers education, training, and employment services</li>
+          </ul>
+          <p class="es">Para veteranos con una discapacidad relacionada con el servicio; cubre educación, capacitación y servicios de empleo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Before You Decide</p>
+    <h2>Questions worth asking</h2>
+    <h2 class="es">Preguntas que vale la pena hacer</h2>
+    <ul class="qlist">
+      <li><div class="qrow"><span class="qmark">?</span>What job or career am I interested in? Does the military offer training in that area?</div><p class="es">¿Qué trabajo o carrera me interesa? ¿Ofrece el ejército capacitación en esa área?</p></li>
+      <li><div class="qrow"><span class="qmark">?</span>Am I ready for a multi-year commitment right after high school, or do I want college first?</div><p class="es">¿Estoy listo para un compromiso de varios años justo después de la secundaria, o prefiero la universidad primero?</p></li>
+      <li><div class="qrow"><span class="qmark">?</span>What branch fits my personality and goals?</div><p class="es">¿Qué rama se ajusta a mi personalidad y metas?</p></li>
+      <li><div class="qrow"><span class="qmark">?</span>What happens to my education if I enlist? What benefits will I have?</div><p class="es">¿Qué pasa con mi educación si me alisto? ¿Qué beneficios tendré?</p></li>
+      <li><div class="qrow"><span class="qmark">?</span>How does deployment affect my family and plans?</div><p class="es">¿Cómo afecta el despliegue a mi familia y mis planes?</p></li>
+      <li><div class="qrow"><span class="qmark">?</span>What do veterans in my community say about their experience?</div><p class="es">¿Qué dicen los veteranos de mi comunidad sobre su experiencia?</p></li>
+    </ul>
+  </div>
+</section>
+
+<div class="cta">
+  <div class="wrap">
+    <p class="kicker">How Anchored Pathways Can Help</p>
+    <h2>Let's think it through together.</h2>
+    <h2 class="es">Pensémoslo juntos</h2>
+    <p>We help you and your family compare pathways side by side, understand your education benefits, and ask the right questions before committing to anything. One-on-one sessions are free and private — in English and Spanish.</p>
+    <p class="es">Le ayudamos a usted y a su familia a comparar rutas, entender sus beneficios educativos y hacer las preguntas correctas antes de comprometerse a algo. Las sesiones son gratuitas y privadas, en inglés y español.</p>
+    <a class="btn" href="https://anchoredpathways.org" target="_blank" rel="noopener">Request a Meeting</a>
+    <p class="sub">anchoredpathways.org &nbsp;·&nbsp; gutierrezm@anchoredpathways.org</p>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>Anchored Pathways to Higher Education, Inc. &nbsp;·&nbsp; 501(c)(3) &nbsp;·&nbsp; EIN 39-4454436</p>
+    <p>Educational guidance only. Not legal or financial advice.</p>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.acc-head').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var item = btn.closest('.acc-item');
+      var wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.acc-item').forEach(function(i){ i.classList.remove('open'); });
+      if(!wasOpen){ item.classList.add('open'); }
+    });
+  });
+</script>
+
+</body>
+</html>
