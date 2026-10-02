@@ -1,0 +1,12 @@
+/* Small accessible foundation. Page styling is embedded in index.html. */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0}
+button,input,select{font:inherit}
+button,a,input,summary{-webkit-tap-highlight-color:transparent}
+button{cursor:pointer}
+img{max-width:100%;height:auto}
+button:disabled{cursor:not-allowed}
+:focus-visible{outline:3px solid #b8700c;outline-offset:4px}
+[hidden]{display:none!important}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}

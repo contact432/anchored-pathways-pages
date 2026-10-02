@@ -1,0 +1,82 @@
+# Anchored Pathways College Cost Comparison
+
+Reviewed October 1, 2026. A family-facing guide to San Jacinto College, Lee College, Galveston College, UH, UHCL, University of St. Thomas, Rice, Texas A&M–College Station, UT Austin and Stephen F. Austin. Compare the student's actual tuition classification, housing plan and gift aid rather than choosing by sticker price alone.
+
+## Read this before comparing
+
+- **Published budget versus college bill:** The tables include estimated living costs where a provider publishes them. They do not mean the entire budget must be paid to the college; for example, Galveston identifies tuition/fees and books as estimated school charges and other budget items as living costs. [Galveston budget explanation](https://gc.edu/financial-aid/financial-aid-information.php)
+- **Blank figures:** “n.a.” means a comparable figure was not verified, not that the cost is zero. Use the workbook's Family Worksheet to compare actual current quotes and offers.
+- **Different course loads:** UT Austin and SFA use 12 credit hours per term, while UH's flyer, UHCL and the listed community-college examples use 30 credits annually. These are not identical enrollment assumptions; ask how the planned yearly credits affect degree completion and cost. [UT Austin assumptions](https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/) · [SFA assumptions](https://www.sfasu.edu/finaid/coa) · [UH flyer](https://www.uh.edu/undergraduate-admissions/resources/recruitment-onepager-freshman.pdf) · [UHCL assumptions](https://www.uhcl.edu/costs-aid/tuition/) · [San Jac assumptions](https://www.sanjac.edu/admissions/paying-for-college/tuition-costs/) · [Galveston assumptions](https://gc.edu/financial-aid/financial-aid-information.php)
+- **Year matters:** Most dated budgets below are 2026–27, not confirmed fall 2027 prices. Some aid pages already describe fall 2027 routes; do not assume next-year aid guarantees coverage of this year's figures.
+- **Harris County is not a tuition category:** San Jac, Lee and Galveston distinguish district and/or residency categories. A nearby address alone does not establish the lowest rate; ask the college to confirm the student's classification. [San Jac rates](https://www.sanjac.edu/admissions/paying-for-college/tuition-costs/) · [Lee classifications](https://www.lee.edu/businessoffice/tuition-other-charges/index.php) · [Galveston rates](https://gc.edu/admissions/calculating-tuition-fees.php)
+
+## Local and nearby options
+
+All amounts are annual and before grants or scholarships. Living-with-family totals include provider allowances, not just additional cash the family would spend because the student enrolled.
+
+| School | Tuition / fees starting point | Living with parents/family | Living away from parents/family |
+|---|---|---|---|
+| **San Jacinto College** | In district **$2,490**; out-of-district Texas resident **$4,320**; non-Texas/international **$6,690**, for 30 credits ([San Jac](https://www.sanjac.edu/admissions/paying-for-college/tuition-costs/)) | n.a.; no parent-specific breakdown verified | n.a.; its general budget is not assigned a housing category |
+| **Lee College** | AP annualized tuition/other charges: in district **$2,668**; out of district **$4,813**; nonresident **$5,338**, using 15 credits each fall/spring ([Lee charges](https://www.lee.edu/businessoffice/tuition-other-charges/index.php)) | n.a.; current comparable budget not verified | n.a.; current comparable budget not verified |
+| **Galveston College** | Published in-district annual tuition/fees **$2,726**; AP annualized fee-table figures: out of district **$3,446**, nonresident **$6,176**, at 15 credits × 2 ([Galveston rates and budget](https://gc.edu/admissions/calculating-tuition-fees.php)) | **$15,560**, in-district budget only ([Galveston](https://gc.edu/financial-aid/financial-aid-information.php)) | **$21,534**, in-district “not living with parents” budget; no on/off-campus split ([Galveston](https://gc.edu/financial-aid/financial-aid-information.php)) |
+| **University of Houston** | Resident estimate **$11,888**; nonresident **$27,776**, two 15-hour semesters ([UH freshman flyer](https://www.uh.edu/undergraduate-admissions/resources/recruitment-onepager-freshman.pdf)) | n.a.; confirmed current parent-specific full budget not located | **Partial subtotal only:** resident **$24,604** / nonresident **$40,492** for tuition/required fees, on-campus room/board and books; not full COA ([UH flyer](https://www.uh.edu/undergraduate-admissions/resources/recruitment-onepager-freshman.pdf)) |
+| **UH–Clear Lake** | Resident **$9,298**; nonresident **$25,828**, 30 credits ([UHCL](https://www.uhcl.edu/costs-aid/tuition/)) | Resident **$22,947**; nonresident **$39,477** ([UHCL](https://www.uhcl.edu/costs-aid/tuition/)) | On campus: resident **$27,903**, nonresident **$44,433**; off campus: resident **$30,634**, nonresident **$47,164** ([UHCL](https://www.uhcl.edu/costs-aid/tuition/)) |
+| **University of St. Thomas** | **$36,904**, published 2026–27 tuition/fees for the stated full-time enrollment range ([UST](https://stthom.edu/tuition/)) | **$46,073**, AP-calculated sum of the five published annual components ([UST components](https://stthom.edu/tuition/)) | **$53,000** on campus / **$53,521** off campus, AP-calculated component sums ([UST components](https://stthom.edu/tuition/)) |
+| **Rice University** | **$72,124** tuition plus mandatory fees, AP sum of $71,140 + $984 for entrants in 2024 or later ([Rice](https://financialaid.rice.edu/cost-attendance)) | **$83,379**, before aid ([Rice](https://financialaid.rice.edu/cost-attendance)) | **$97,309** on campus, before aid; no new-entrant apartment total verified ([Rice](https://financialaid.rice.edu/cost-attendance)) |
+
+### Costs that need extra attention
+
+- **San Jac:** Its general annual budgets are $31,306 in district, $33,136 out of district and $35,506 non-Texas/international, including $22,916 in housing/food, but the page does not label those as parent/on/off-campus scenarios or specify an academic year. Do not treat that living allowance as a confirmed commuting-family cost. [San Jac cost page](https://www.sanjac.edu/admissions/paying-for-college/tuition-costs/)
+- **Lee:** Published table totals exclude the separately displayed myBooks charge; at 15 credits this is $495 per term, or an AP-calculated $990 annually if applicable. Check opt-out and actual required-material charges, and avoid adding another book estimate on top without checking overlap. [Lee tuition and myBooks](https://www.lee.edu/businessoffice/tuition-other-charges/index.php)
+- **Galveston:** Both published housing budgets are in district; a Harris County family should not adopt those totals without confirming its actual classification. The annualized out-of-district/nonresident tuition figures use the current fee table, whose year is not explicitly stated. [Galveston fee schedule](https://gc.edu/admissions/calculating-tuition-fees.php)
+- **UH:** The recruitment subtotal omits transportation and personal expenses. It should not be ranked against another school's full living-expense budget as though both cover the same categories. [UH flyer components](https://www.uh.edu/undergraduate-admissions/resources/recruitment-onepager-freshman.pdf)
+- **UHCL:** The displayed expense components sum to $1 more than each published total; this comparison preserves the official totals instead of silently adjusting them. Use the dated detailed COA page rather than older promotional estimates. [UHCL detailed budget](https://www.uhcl.edu/costs-aid/tuition/)
+- **UST:** The totals shown are calculations, not provider-published totals. Confirm whether the Celt textbook charge is already accounted for in the books figure and ask about additional required charges. [UST components and textbook note](https://stthom.edu/tuition/)
+- **Rice:** Health insurance is excluded from the standard COA, and travel/orientation can add costs. Rice also states that living at home may reduce both the budget and the aid award, so the difference between home and campus sticker budgets is not automatically the family's savings. [Rice budget notes](https://financialaid.rice.edu/cost-attendance)
+
+## Moving away: A&M, UT Austin and SFA
+
+For a student whose family remains in Harris County, use a realistic campus/apartment plan rather than assuming a “with parents” budget at a distant campus. The published parent budgets below are useful only if the student actually has a family housing arrangement near that school.
+
+| School | Resident tuition / fees | Published resident annual budget | Standard nonresident annual budget |
+|---|---|---|---|
+| **Texas A&M–College Station** | n.a. in reviewed catalog cost paragraph; obtain program-specific calculator quote | Approximately **$33,180**, unsplit nine-month estimate ([A&M catalog](https://catalog.tamu.edu/undergraduate/tuition-fees-financial-information/)) | Approximately **$62,272**, unsplit estimate ([A&M catalog](https://catalog.tamu.edu/undergraduate/tuition-fees-financial-information/)) |
+| **UT Austin** | **$10,858–$13,576**, source labels this tuition, 12 credits/term ([UT Austin](https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/)) | On/off campus **$32,508–$35,386**; with parents **$24,998–$27,716** ([UT Austin](https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/)) | On/off campus **$64,204–$72,916** ([UT Austin](https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/)) |
+| **SFA** | **$12,938**, 12 credits/term ([SFA](https://www.sfasu.edu/finaid/coa)) | On campus **$30,576**; off campus **$30,876**; with parents **$24,128** ([SFA](https://www.sfasu.edu/finaid/coa)) | On campus **$43,412**; off campus **$43,712** ([SFA](https://www.sfasu.edu/finaid/coa)) |
+
+**Before aid, SFA has the lowest published overall moving-away budget of these three, but UT's tuition alone can be lower for some programs.** The ranking after aid is student-specific, and A&M's general catalog estimate is less detailed than the UT/SFA housing tables. [SFA budget](https://www.sfasu.edu/finaid/coa) · [UT budget](https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/) · [A&M budget](https://catalog.tamu.edu/undergraduate/tuition-fees-financial-information/)
+
+## Aid routes to explore without assuming eligibility
+
+- **San Jac and Lee:** Review matched Foundation awards and their individual eligibility. San Jac Promise is a separate last-dollar program with cohort, district, enrollment and book/supply limits; Lee's general scholarship criteria include a 2.0 GPA and part-time/full-time/dual-credit enrollment. [San Jac scholarships](https://www.sanjac.edu/admissions/paying-for-college/grants-scholarships/scholarships/) · [San Jac Promise](https://www.sanjac.edu/admissions/paying-for-college/grants-scholarships/scholarships/promise/) · [Lee scholarships](https://www.lee.edu/financialaid/types-of-aid/scholarships/)
+- **Galveston:** Its Spring 2027 scholarship application closes November 20, 2026, at noon, and eligibility differs by award. The Sanford A. Rubin M.D. nursing scholarship explicitly does not require citizenship/permanent residency, but has nursing-degree, 3.0 GPA, progress and financial-need conditions. [Galveston awards and application](https://gc.edu/financial-aid/available-aid/scholarships/galveston-college-scholarships.php)
+- **UH:** Compare the freshman merit, transfer and current-student routes separately; the general scholarship page retains previous-cycle dates, so confirm the appropriate entering-year deadline. Do not rely on old Cougar Promise tuition-residency wording as a current individual determination. [UH scholarships](https://www.uh.edu/financial/undergraduate/types-aid/scholarships/) · [Cougar Promise](https://www.uh.edu/financial/undergraduate/types-aid/incentives/cougar-promise/)
+- **UHCL:** New Hawk's fall 2027 priority deadline is February 1, 2027, with Texas tuition-residency and rank/test requirements. Hawk Promise is separate and requires Pell eligibility, a FAFSA and other conditions; its fall 2027 completed-file deadline is January 15, 2027. [New Hawk](https://www.uhcl.edu/costs-aid/scholarships/new-student-scholarships/new-hawk) · [Hawk Promise](https://www.uhcl.edu/costs-aid/types/hawk-promise)
+- **St. Thomas:** Explore university scholarships and ask about Promise's full criteria, which are not all stated on its overview page. UST is a TheDream.US Partner College; the next round opens November 1, 2026, and new-cycle amounts/rules need confirmation. [UST scholarships](https://stthom.edu/tuition-aid/) · [TheDream.US partners](https://www.thedream.us/scholarships/national-scholarship/national-partner-colleges-list/) · [Next application round](https://www.thedream.us/scholarships/national-scholarship/)
+- **Rice:** Qualifying DACA applicants and long-term undocumented U.S. residents who graduated from a U.S. high school have a domestic-aid pathway starting with CSS Profile. The expanded Rice Investment income tiers are not for current/fall 2026 entrants; ask Rice about the student's entering cohort, typical-assets review and expected offer. [Rice aid FAQ](https://financialaid.rice.edu/forms-resources/frequently-asked-questions) · [Rice Investment cycle caution](https://financialaid.rice.edu/rice-investment)
+- **A&M and UT Austin:** Both publish qualifying tuition-support routes involving Texas tuition residency, financial need and FAFSA/TASFA; A&M's incoming-student Assurance threshold includes income and assets, while UT's threshold refers to family AGI. Their programs are not a promise that every Texas-address student will receive full tuition or living-expense support. [Aggie Assurance](https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/grants.html) · [Texas Advance Commitment](https://admissions.utexas.edu/cost-aid/financial-aid/texas-advance-commitment/)
+- **SFA:** Purple Promise covers qualifying tuition/mandatory fees after other aid, with Texas residency, income and enrollment requirements and limited funding. The reviewed program page requires FAFSA and does not state a TASFA route; ask about that program and other scholarships separately. [SFA Purple Promise](https://www.sfasu.edu/purplepromise)
+
+## Family decision worksheet
+
+Use the Excel Family Worksheet to enter actual annual figures for up to three school/housing options. Complete all nine expense categories and both gift-aid lines; use zero only when a cost or aid source is truly absent.
+
+**Compare:** tuition + required fees + housing + food + books + transportation + insurance + personal expenses + one-time charges, then subtract confirmed grants and scholarships. Keep loans and work-study separate from the price comparison, and ask whether enrollment or housing changes will change the offer.
+
+Ask each college:
+
+- **Tuition classification:** “What rate would apply to me, and what documents do you need to confirm it?”
+- **Scholarship access:** “Which awards can I apply for, and what application route should I use if FAFSA is not available to me?”
+- **Waiver rules:** “Does this exact scholarship qualify for an approved waiver, and what tuition rate and remaining charges would apply?”
+- **Actual offer:** “How much gift aid is confirmed, and what would I still need to pay or finance?”
+- **Living arrangement:** “How would living with family, on campus or off campus change my costs and aid?”
+- **Academic plan:** “How many credits can I realistically take each year, and how would that affect time to completion?”
+
+### Preguntas para las familias
+
+- **Costo real:** “¿Qué tarifa de matrícula me corresponde y cuánto tendría que pagar después de las becas y los apoyos confirmados?”
+- **Solicitud:** “Si no puedo presentar la FAFSA, ¿qué opciones de becas o solicitudes puedo explorar?”
+- **Vivienda:** “¿Cómo cambiarían mis gastos y mi apoyo económico si vivo con mi familia, en el campus o fuera del campus?”
+- **Exención:** “¿Esta beca específica cumple los requisitos de una exención aprobada y qué gastos quedarían pendientes?”
+
+Keep personal financial and immigration documents private and submit them only through the college's verified process. Anchored Pathways can help families compare options; the institution makes the actual classification, eligibility and award decisions.
